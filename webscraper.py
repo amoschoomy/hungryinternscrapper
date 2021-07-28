@@ -37,7 +37,6 @@ def hungry_intern_scrapper():
         for c in candidate_list:
             candidates_url.append(c.get_attribute("href"))
         pagenumber+=1
-        break
     
     return candidates_url
 
