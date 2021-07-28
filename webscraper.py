@@ -37,6 +37,7 @@ def hungry_intern_scrapper():
         for c in candidate_list:
             candidates_url.append(c.get_attribute("href"))
         pagenumber+=1
+        break
     
     return candidates_url
 
@@ -110,7 +111,7 @@ def parse_age(json:str)->str:
         return "999"
 
 def write_to_csv(candidate_infos:List[Candidate]):
-    with open('candidates.csv', 'w',) as csvfile:
+    with open('candidates.csv', 'w',newline="") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(["Name","Age","Gender","Address","Phone","Sector","Salary"])
         for candidate in candidate_infos:

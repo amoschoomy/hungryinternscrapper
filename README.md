@@ -13,7 +13,7 @@ Follow this steps here to run a Python script
 [Mac](https://docs.python.org/3/using/mac.html)
 
 Data scrapped will be exported to a csv file.
-
+It may take a long time to run so be patient.
 
 ## DISCLAIMER
 
