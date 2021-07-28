@@ -37,9 +37,6 @@ def hungry_intern_scrapper():
         for c in candidate_list:
             candidates_url.append(c.get_attribute("href"))
         pagenumber+=1
-        if pagenumber>1:
-            driver.quit()
-            break
     
     return candidates_url
 
