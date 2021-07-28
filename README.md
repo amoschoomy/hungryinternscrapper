@@ -1,6 +1,6 @@
 # hungryinternscrapper
 
-Simple Python script to scrap candidates data that has been in the open in [Hungry Intern](hungryintern.com)
+Simple Python script to scrap candidates data that has been in the open in [Hungry Intern](https://hungryintern.com/candidate-listing/)
 
 Example data contains candidate personal information such as name, address and phone number. Due to the inconsistent formatting and lack of completeness, 
 some data might be missing in the candidate.
